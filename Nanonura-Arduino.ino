@@ -17,7 +17,8 @@ CRGB leds[LED_COUNT];
 EthernetClient client;
 byte clientMac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 IPAddress clientIp(192, 168, 1, 200);
-IPAddress serverIp(192, 168, 1, 27);
+IPAddress serverIp(192, 168, 1, 25);
+//IPAddress serverIp(192, 168, 1, 27);
 int serverPort = 10002;
 
 char startChecksum[] = "abc";
